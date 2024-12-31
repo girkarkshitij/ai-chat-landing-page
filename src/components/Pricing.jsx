@@ -27,10 +27,7 @@ function Pricing() {
           </div>
         </div>
 
-        <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
-        />
+        <Heading tag="Get started with ConvoAI" title="Pay once, use forever" />
 
         <div className="relative">
           <PricingList />

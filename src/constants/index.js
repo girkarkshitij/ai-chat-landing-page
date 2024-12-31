@@ -77,13 +77,13 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
+export const logoServices = [
   "Photo generating",
   "Photo enhance",
   "Seamless Integration",
 ];
 
-export const brainwaveServicesIcons = [
+export const logoServicesIcons = [
   recording03,
   recording01,
   disc02,
