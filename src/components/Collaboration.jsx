@@ -1,4 +1,4 @@
-import { logoSymbol, check } from "../assets";
+import { logoSymbol, check } from "../assets/assetsImport";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";

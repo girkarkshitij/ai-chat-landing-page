@@ -1,4 +1,4 @@
-import { notification1 } from "../assets";
+import { notification1 } from "../assets/assetsImport";
 import { notificationImages } from "../constants";
 
 function Notification({ className, title }) {
