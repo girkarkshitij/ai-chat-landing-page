@@ -6,7 +6,9 @@ function Button({ className, href, onClick, children, px, white }) {
   } ${white ? "text-n-8" : "text-n-1"} ${className || ""}`;
   const spanClasses = "relative z-10";
 
-  if (!href) {
+  console.log("log");
+
+  if (href) {
     return (
       <a href={href} className={classes}>
         <span className={spanClasses}>{children}</span>
