@@ -1,8 +1,41 @@
-# React + Vite
+# AI Chat Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a landing page for an AI chat application. It is built using React and styled with Tailwind CSS. The project includes various components and assets to create a visually appealing and functional landing page.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/girkarkshitij/ai-chat-landing-page.git
+   cd ai-chat-landing-page
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+## Running the Project
+
+To start the development server, run:
+
+```sh
+npm run dev
+```
+
+## Building the Project
+
+To build the project for production, run:
+
+```sh
+npm run build
+```
+
+## Running Tests
+
+To run the tests, use
+
+```sh
+npm test
+```
