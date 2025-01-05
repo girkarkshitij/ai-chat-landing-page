@@ -2,7 +2,6 @@
 
 This project is a landing page for an AI chat application. It is built using React and styled with Tailwind CSS. The project includes various components and assets to create a visually appealing and functional landing page.
 
-
 ## Installation
 
 1. Clone the repository:
