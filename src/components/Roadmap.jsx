@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../assets";
+import { check2, grid, loading1 } from "../assets/assetsImport";
 import { Gradient } from "./design/Roadmap";
 
 function Roadmap() {
@@ -55,10 +55,10 @@ function Roadmap() {
                         src={item.imageUrl}
                         width={628}
                         height={426}
-                        alt={item.title}
+                        alt={`${item.title} image`}
                       />
                     </div>
-                    <h4 className="h4 mb-4">{item.title}</h4>
+                    <div className="h4 mb-4">{item.title}</div>
                     <p className="body-2 text-n-4">{item.text}</p>
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
+import { service1, service2, service3, check } from "../assets/assetsImport";
 import { logoServices, logoServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
@@ -17,7 +17,7 @@ function Services() {
       <div className="container">
         <Heading
           title="Generative AI made for creators."
-          text="ConvoAI unlocks the potential of AI-powered applications"
+          text="Explore the power of AI-driven solutions with ConvoAI."
         />
 
         <div className="relative">
@@ -33,7 +33,7 @@ function Services() {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <div className="h4 mb-4">Smartest AI</div>
               <p className="body-2 mb-[3rem] text-n-3">
                 ConvoAI unlocks the potential of AI-powered applications
               </p>
@@ -43,7 +43,7 @@ function Services() {
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
+                    <img width={24} height={24} src={check} alt="checked" />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
@@ -66,7 +66,7 @@ function Services() {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <div className="h4 mb-4">Photo editing</div>
                 <p className="body-2 mb-[3rem] text-n-3">
                   Automatically enhance your photos using our AI app&apos;s
                   photo editing feature. Try it now!
@@ -78,7 +78,7 @@ function Services() {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <div className="h4 mb-4">Video generation</div>
                 <p className="body-2 mb-[2rem] text-n-3">
                   The world’s most powerful AI photo and video art generation
                   engine. What will you create?

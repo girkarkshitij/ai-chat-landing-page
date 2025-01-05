@@ -1,4 +1,4 @@
-import { check } from "../assets";
+import { check } from "../assets/assetsImport";
 import { pricing } from "../constants";
 import Button from "./Button";
 
@@ -29,7 +29,7 @@ function PricingList() {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href={item.price ? "/pricing" : "mailto:contact@convoai.com"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
