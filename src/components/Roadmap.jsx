@@ -43,6 +43,7 @@ function Roadmap() {
                           src={item.status === "done" ? check2 : loading1}
                           width={16}
                           height={16}
+                          alt={status}
                         />
                         <div className="tagline">{status}</div>
                       </div>
