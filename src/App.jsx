@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <div className="pt-16 lg:pt-20 overflow-hidden">
-        <Header />
+        {/* <Header /> */}
         <Hero />
         <Benefits />
-        <Collaboration />
+        {/* <Collaboration /> */}
         <Services />
         <Pricing />
         <Roadmap />
