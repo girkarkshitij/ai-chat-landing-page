@@ -13,11 +13,8 @@ function App() {
     <>
       <div className="pt-16 lg:pt-20 overflow-hidden">
         <Header />
-        <Hero />
-        <Benefits />
         <Collaboration />
         <Services />
-        <Pricing />
         <Roadmap />
         <Footer />
       </div>
