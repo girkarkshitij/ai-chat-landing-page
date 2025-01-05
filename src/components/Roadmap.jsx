@@ -55,7 +55,6 @@ function Roadmap() {
                         src={item.imageUrl}
                         width={628}
                         height={426}
-                        alt={`${item.title} image`}
                       />
                     </div>
                     <div className="h4 mb-4">{item.title}</div>

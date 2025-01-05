@@ -32,7 +32,7 @@ function PricingList() {
             href={item.price ? "/pricing" : "mailto:contact@convoai.com"}
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            {item.price ? "Don't Get started" : "Contact us"}
           </Button>
 
           <ul>
