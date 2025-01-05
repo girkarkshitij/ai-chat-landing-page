@@ -3,9 +3,9 @@ import { companyLogos } from "../constants";
 function CompanyLogos({ className }) {
   return (
     <div className={className}>
-      <h5 className="tagline mb-6 text-center text-n-1/50">
+      <div className="tagline h-5 mb-6 text-center text-n-1/50">
         Helping people create beautiful content at
-      </h5>
+      </div>
       <ul className="flex">
         {companyLogos.map((logo, index) => (
           <li
